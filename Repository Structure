@@ -1,0 +1,28 @@
+BeyondResNet-CIFAR10/
+├── README.md
+├── requirements.txt
+├── config.py
+├── train.py
+├── models/
+│   ├── __init__.py
+│   ├── baseline_cnn.py
+│   ├── attention_cnn.py
+│   └── stochastic_depth_cnn.py
+├── data/
+│   └── data_loader.py
+├── utils/
+│   ├── __init__.py
+│   ├── metrics.py
+│   └── visualization.py
+├── scripts/
+│   ├── train_baseline.sh
+│   ├── train_attention.sh
+│   └── train_stochastic_depth.sh
+├── results/
+│   ├── baseline/
+│   ├── attention/
+│   └── stochastic_depth/
+└── checkpoints/
+    ├── baseline_cnn.pth
+    ├── attention_cnn.pth
+    └── stochastic_depth_cnn.pth
